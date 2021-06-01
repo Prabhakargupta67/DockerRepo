@@ -2,11 +2,11 @@
 
 #Base OS - centos
 
-FROM centos:7
+FROM centos:latest
 
 #Install Httpd package 
 
-RUN yum install httpd -y
+RUN DNF install httpd
 
 #WORKINGDIR /var/www/html/
 
