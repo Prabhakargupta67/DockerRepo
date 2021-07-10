@@ -6,7 +6,7 @@ FROM centos:latest
 
 #Install Httpd package 
 
-RUN yum install httpd
+RUN yum install httpd -y
 
 #WORKINGDIR /var/www/html/
 
