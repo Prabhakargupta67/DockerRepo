@@ -18,4 +18,4 @@ COPY . .
 
 #start the service
 
-CMD ["/usr/sbin/apachectl/" ".D" "FOREGROUND"]
+CMD ["/usr/sbin/httpd" ".D" "FOREGROUND"]
